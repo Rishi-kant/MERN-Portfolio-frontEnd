@@ -4,15 +4,18 @@ import Layout from './components/layout/Layout'
 import About from './pages/about/About'
 import TechStack from './pages/teckStack/TechStack'
 import Projects from './pages/projects/Projects'
+import Education from './education/Education'
 function App() {
   return (
     <div>
       <Layout/>
       <div className="container">
       <About/>
-      </div>
+      <Education/>
       <TechStack/>
       <Projects/>
+      </div>
+      
     </div>
   )
 }
