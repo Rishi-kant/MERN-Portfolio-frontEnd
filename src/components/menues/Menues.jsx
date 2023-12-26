@@ -27,16 +27,18 @@ function Menues({ arrowSide }) {
               <div className="nav-link"><FcAbout/>About</div>
             </div>
             <div className="nav-item">
-              <div className="nav-link"><FcPortraitMode/>Work Experience</div>
+              <div className="nav-link"><FcReadingEbook/>Education</div>
             </div>
+           
             <div className="nav-item">
               <div className="nav-link"><FcBiotech/>Tech Stack</div>
             </div>
-            <div className="nav-item">
-              <div className="nav-link"><FcReadingEbook/>Education</div>
-            </div>
+           
             <div className="nav-item">
               <div className="nav-link"><GrProjects/>Projects</div>
+            </div>
+            <div className="nav-item">
+              <div className="nav-link"><FcPortraitMode/>Work Experience</div>
             </div>
             <div className="nav-item">
               <div className="nav-link"><FcVoicePresentation/>Testimonial</div>
@@ -55,16 +57,18 @@ function Menues({ arrowSide }) {
               <div className="nav-link"><FcAbout/></div>
             </div>
             <div className="nav-item">
-              <div className="nav-link"><FcPortraitMode/></div>
+              <div className="nav-link"><FcReadingEbook/></div>
             </div>
+          
             <div className="nav-item">
               <div className="nav-link"><FcBiotech/></div>
             </div>
-            <div className="nav-item">
-              <div className="nav-link"><FcReadingEbook/></div>
-            </div>
+           
             <div className="nav-item">
               <div className="nav-link"><GrProjects/></div>
+            </div>
+            <div className="nav-item">
+              <div className="nav-link"><FcPortraitMode/></div>
             </div>
             <div className="nav-item">
               <div className="nav-link"><FcVoicePresentation/></div>
