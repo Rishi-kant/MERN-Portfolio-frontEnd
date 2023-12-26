@@ -1,0 +1,24 @@
+
+.work{
+    background-color: #1387812a;
+    margin-left: 130px;
+   
+}
+.work-exp{
+    padding: 60px 0px;
+}
+.work-exp h2{
+   font-weight: bold;
+   color: #1e1e2c;
+}
+.work-exp hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+.title-heading{
+    margin-left: 10px;
+}
+.conent{
+    margin-left: 30px;
+}
