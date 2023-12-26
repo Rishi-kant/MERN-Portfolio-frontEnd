@@ -4,7 +4,8 @@ import Layout from './components/layout/Layout'
 import About from './pages/about/About'
 import TechStack from './pages/teckStack/TechStack'
 import Projects from './pages/projects/Projects'
-import Education from './education/Education'
+import Education from './pages/education/Education'
+import WorkExperience from './pages/workExperience/WorkExperience'
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Education/>
       <TechStack/>
       <Projects/>
+      <WorkExperience/>
       </div>
       
     </div>
