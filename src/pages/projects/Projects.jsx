@@ -1,9 +1,10 @@
 import React from "react";
 import "./Projects.css";
+import Pulse from 'react-reveal/Pulse';
 function Projects() {
   return (
     <>
-      <div className="container project">
+      <div className="project" id="projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           TOP RECENT PROJECTS
         </h2>
@@ -12,8 +13,9 @@ function Projects() {
           👉 Here are my top projects with live links and source code
         </p>
         <div className="row" id="ads">
+          <Pulse>
           <div className="col-md-4">
-            <div className="card rounded">
+            <div className="card ">
               <div className="card-image">
                 <span className="card-notify-badge">Front end</span>
                 <img
@@ -81,12 +83,13 @@ function Projects() {
                 <div className="ad-tittle">
                   <h5 className="text-uppercase">Kanban board</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a className="ad-btn" href="view">
                   View
                 </a>
               </div>
             </div>
           </div>
+          </Pulse>
         </div>
       </div>
     </>

@@ -1,7 +1,9 @@
 
 .work{
     background-color: #1387812a;
-    margin-left: 130px;
+    margin-left: 150px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
    
 }
 .work-exp{
@@ -17,8 +19,8 @@
     margin: 10px auto;
 }
 .title-heading{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .conent{
-    margin-left: 30px;
+    margin-left: 35px;
 }
