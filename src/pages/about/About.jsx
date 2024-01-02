@@ -1,9 +1,11 @@
 import React from "react";
 import "./About.css"
+import Jump from 'react-reveal/Jump';
 function About() {
   return (
     <>
-      <div className="about">
+    <Jump>
+      <div className="about" id="about">
         <div className="row">
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-image">
             <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="profile_pic"/>
@@ -16,6 +18,7 @@ function About() {
             </div>
         </div>
       </div>
+      </Jump>
     </>
   );
 }

@@ -3,8 +3,8 @@ import "./WorkExperience.css";
 function WorkExperience() {
   return (
     <>
-      <div className=" work">
-        <div className=" container work-exp">
+      <div className=" work" id="workExperience">
+        <div className="  work-exp">
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             work experience
           </h2>
